@@ -3,7 +3,7 @@
 namespace Project\CleanArchitecture\tests;
 
 use PHPUnit\Framework\TestCase;
-use Project\CleanArchitecture\Projetos\src\Email;
+use Project\CleanArchitecture\Aluno\Email;
 
 class EmailTest extends TestCase
 {

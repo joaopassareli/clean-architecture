@@ -1,6 +1,6 @@
 <?php
 
-namespace Project\CleanArchitecture\Projetos\src;
+namespace Project\CleanArchitecture\Indicacao;
 
 use Project\CleanArchitecture\Aluno\Aluno;
 

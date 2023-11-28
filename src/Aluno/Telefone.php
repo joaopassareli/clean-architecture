@@ -1,6 +1,7 @@
 <?php
 
-namespace Project\CleanArchitecture\Projetos\src;
+namespace Project\CleanArchitecture\Aluno;
+
 
 class Telefone
 {
@@ -13,19 +14,22 @@ class Telefone
         $this->setNumero($numero);
     }
 
-    private function serDdd(string $ddd): void
+    private function setDdd(string $ddd): void
     {
-        if(preg_match('/\d{2}/', $ddd) !== 1) {
-            throw new \InvalidArgumentExcption(message: 'DDD inválido');
+        if (preg_match('/\d{2}/', $ddd) !== 1) {
+            throw new \InvalidArgumentException(message: 'DDD inválido');
         }
-        $this->ddd = $ddd
+
+        $this->ddd = $ddd;
     }
 
     private function setNumero(string $numero): void
     {
-        if(preg_match('/\d{8,9}/', $numero) !== 1) {
+        if (preg_match('/\d{8,9}/', $numero) !== 1) {
             throw new \InvalidArgumentException(message: 'Número de telefone inválido');
         }
+
+        $this->numero = $numero;
     }
 
     public function __toString(): string

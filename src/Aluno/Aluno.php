@@ -2,9 +2,10 @@
 
 namespace Project\CleanArchitecture\Aluno;
 
-use Project\CleanArchitecture\Projetos\src\Cpf;
-use Project\CleanArchitecture\Projetos\src\Email;
-use Project\CleanArchitecture\Projetos\src\Telefone;
+use Project\CleanArchitecture\Aluno\Cpf;
+use Project\CleanArchitecture\Aluno\Email;
+use Project\CleanArchitecture\Aluno\Telefone;
+
 
 class Aluno
 {
@@ -13,6 +14,7 @@ class Aluno
     private Cpf $cpf;
     private array $telefones;
 
+    
     public static function comNomeEmailCpf( string $nome, string $email, string $cpf): self
     {
         return new Aluno(

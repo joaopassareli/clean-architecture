@@ -1,6 +1,7 @@
 <?php
 
-namespace Project\CleanArchitecture\Projetos\src;
+namespace Project\CleanArchitecture\Aluno;
+
 
 use InvalidArgumentException;
 

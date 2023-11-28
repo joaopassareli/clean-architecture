@@ -2,9 +2,9 @@
 
 namespace Project\CleanArchitecture\Aluno;
 
-use Project\CleanArchitecture\Projetos\src\Cpf;
-use Project\CleanArchitecture\Projetos\src\Email;
-use Project\CleanArchitecture\Projetos\src\Telefone;
+use Project\CleanArchitecture\Aluno\Cpf;
+use Project\CleanArchitecture\Aluno\Aluno;
+use Project\CleanArchitecture\Aluno\Email;
 
 class FabricaAluno
 {
