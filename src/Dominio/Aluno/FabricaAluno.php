@@ -1,10 +1,10 @@
 <?php
 
-namespace Project\CleanArchitecture\Aluno;
+namespace Project\CleanArchitecture\Dominio\Aluno;
 
-use Project\CleanArchitecture\Aluno\Cpf;
-use Project\CleanArchitecture\Aluno\Aluno;
-use Project\CleanArchitecture\Aluno\Email;
+use Project\CleanArchitecture\Dominio\Aluno\Cpf;
+use Project\CleanArchitecture\Dominio\Aluno\Aluno;
+use Project\CleanArchitecture\Dominio\Aluno\Email;
 
 class FabricaAluno
 {

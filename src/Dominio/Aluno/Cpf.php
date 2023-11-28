@@ -1,6 +1,6 @@
 <?php
 
-namespace Project\CleanArchitecture\Aluno;
+namespace Project\CleanArchitecture\Dominio\Aluno;
 
 
 use InvalidArgumentException;

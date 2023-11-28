@@ -3,7 +3,7 @@
 namespace Project\CleanArchitecture\tests;
 
 use PHPUnit\Framework\TestCase;
-use Project\CleanArchitecture\Aluno\Cpf;
+use Project\CleanArchitecture\Dominio\Aluno\Cpf;
 
 class CpfTest extends TestCase
 {

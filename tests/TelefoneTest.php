@@ -3,7 +3,7 @@
 namespace Project\CleanArchitecture\tests;
 
 use PHPUnit\Framework\TestCase;
-use Project\CleanArchitecture\Aluno\Telefone;
+use Project\CleanArchitecture\Dominio\Aluno\Telefone;
 
 class TelefoneTest extends TestCase
 {

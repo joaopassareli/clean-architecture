@@ -1,15 +1,12 @@
 <?php
 
-namespace Project\CleanArchitecture\Indicacao;
+namespace Project\CleanArchitecture\Dominio\Indicacao;
 
-use Project\CleanArchitecture\Aluno\Aluno;
+use Project\CleanArchitecture\Dominio\Aluno\Aluno;
+
 
 class Indicacao
 {
-    private Aluno $indicante;
-    private Aluno $indicado;
-    private \DateTimeImmutable $date;
-
     public function __construct(Aluno $indicado, Aluno $indicante)
     {
         $this->indicado = $indicado;
