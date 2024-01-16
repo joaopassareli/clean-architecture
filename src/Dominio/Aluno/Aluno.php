@@ -29,6 +29,7 @@ class Aluno
         $this->nome = $nome;
         $this->email = $email;
         $this->cpf = $cpf;
+        $this->telefones = [];
     }
 
     public function adicionarTelefone(string $ddd, string $numero): self

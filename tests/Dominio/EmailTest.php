@@ -1,6 +1,6 @@
 <?php
 
-namespace Project\CleanArchitecture\tests;
+namespace Project\CleanArchitecture\tests\Aluno\Dominio;
 
 use PHPUnit\Framework\TestCase;
 use Project\CleanArchitecture\Dominio\Aluno\Email;

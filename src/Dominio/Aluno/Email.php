@@ -11,7 +11,7 @@ class Email
     public function __construct(string $email)
     {
         if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
-            throw new InvalidArgumentException('Endereço de e-mail inválido!');
+            throw new InvalidArgumentException("Endereço de e-mail inválido! - $email");
         }
 
         $this->email = $email;

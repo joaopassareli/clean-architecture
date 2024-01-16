@@ -1,6 +1,6 @@
 <?php
 
-namespace Project\CleanArchitecture\tests;
+namespace Project\CleanArchitecture\tests\Dominio\Aluno;
 
 use PHPUnit\Framework\TestCase;
 use Project\CleanArchitecture\Dominio\Aluno\Telefone;
